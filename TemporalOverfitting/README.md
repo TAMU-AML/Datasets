@@ -2,7 +2,7 @@ This folder contains the datasets used in the paper: `The temporal overfitting p
 
 There are two datasets used in the paper:
 
-1. Main case study datasets: Main case study datasets comprise of four wind turbine data, two inland and two offshore. These datasets are not a part of this repository, but are available on the book webiste of Ding(2019) at the URL: https://aml.engr.tamu.edu/book-dswe/dswe-datasets/ (Dataset 6). The data are in the `CSV` file format with the first row as the headers. The meaning of the headers for the inland turbines (WT1 and WT2) are as follows:
+1. case_study_1: Case Study I datasets comprise of four wind turbine data, two inland and two offshore. These datasets are not a part of this repository, but are available on the book webiste of Ding(2019) at the URL: https://aml.engr.tamu.edu/book-dswe/dswe-datasets/ (Dataset 6). The data are in the `CSV` file format with the first row as the headers. The meaning of the headers for the inland turbines (WT1 and WT2) are as follows:
 
     - `time`: time stamp for the observations.
     - `V` : wind speed in m/s.
@@ -15,7 +15,7 @@ There are two datasets used in the paper:
 
     For the offshore turbines, wind shear `S` is replaced by humidity `H`, and the rest of the variables stay the same.
 
-2. Extended case study datasets: Extended case study datasets contain thirty inland wind turbine data. These datasets are available in the sub-folder `extended_case_study_datasets/`. These datasets are also in the `CSV` file format with the column headers in the first row. The column headers are:
+2. case_study_2 : Case Study II datasets contain thirty inland wind turbine data. These datasets are available in the sub-folder `case_study_2/`. These datasets are also in the `CSV` file format with the column headers in the first row. The column headers are:
     
     - `turbine_id`: anonymized turbine id; same as the turbine number in the file name.
     - `time_stamp`: time stamp for the observations.
